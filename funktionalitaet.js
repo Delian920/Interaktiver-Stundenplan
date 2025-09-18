@@ -39,6 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // gleich beim Laden ausführen
     highlightCurrentLesson();
 });
-// alle 5 Minuten aktualisieren
-setInterval(highlightCurrentLesson, 5 * 60 * 1000);
+// alle 10 Sekunden aktualisieren
+setInterval(highlightCurrentLesson,  10 * 1000);
 
